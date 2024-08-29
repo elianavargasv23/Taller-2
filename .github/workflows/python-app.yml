@@ -1,0 +1,25 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
+
+# Solicitar al usuario que ingrese un entero, un flotante, un carácter y un booleano 
+entero = int(input("Introduce un número entero: ")) 
+flotante = float(input("Introduce un número flotante: ")) 
+caracter = input("Introduce un carácter (una sola letra): ") 
+booleano = input("Introduce un valor booleano (True o False): ").strip().lower() == 'true' 
+
+# Operaciones básicas con los datos 
+print("\nOperaciones básicas:") 
+print(f"Entero: {entero}") 
+print(f"Flotante: {flotante}") 
+print(f"Caracter: {caracter}")
+
+# Operaciones aritméticas suma = entero + flotante 
+print(f"Suma del entero y flotante: {suma}") 
+
+# Concatenación con el carácter
+concatenacion = caracter * entero
+print(f"Concatenación del carácter repetido {entero} veces: {concatenacion}")
+
+# Resultado del booleano 
+if booleano: print("El valor booleano es True") 
+else: print("El valor booleano es False")
