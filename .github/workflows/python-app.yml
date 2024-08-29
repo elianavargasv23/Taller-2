@@ -1,6 +1,6 @@
 # This workflow will install Python dependencies, run tests and lint with a single version of Python
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
-
+def main():
 # Solicitar al usuario que ingrese un entero, un flotante, un carácter y un booleano 
 entero = int(input("Introduce un número entero: ")) 
 flotante = float(input("Introduce un número flotante: ")) 
